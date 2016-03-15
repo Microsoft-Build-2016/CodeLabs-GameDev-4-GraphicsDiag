@@ -1,0 +1,1844 @@
+fileFormatVersion: 2
+guid: e974fea38eb2567408cdecd7a3d5d0ae
+timeCreated: 1456160235
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Arm
+    100004: Arm 1
+    100006: Arm_Head
+    100008: Bottom_Strengt_Pillar
+    100010: Bottom_Strengt_Pillar1
+    100012: Bottom_Strengt_Pillar2
+    100014: Bottom_Strengt_Pillar3
+    100016: Bottom_Strengt_Pillar4
+    100018: Bottom_Strengt_Pillar5
+    100020: Bottom_Strengt_Pillar6
+    100022: Bottom_Strengt_Pillar7
+    100024: Door
+    100026: Door 1
+    100028: Door 2
+    100030: Door 3
+    100032: Door 4
+    100034: Door1
+    100036: Elevator
+    100038: elevator
+    100040: elevator 1
+    100042: elevator 2
+    100044: elevator 3
+    100046: elevator 4
+    100048: Elevator1
+    100050: elevator_ground
+    100052: elevator_ground 1
+    100054: Fence_Outside
+    100056: Fence_Outside 1
+    100058: Fence_Outside 2
+    100060: Fence_Outside1
+    100062: Floor
+    100064: Floor1
+    100066: Floor1 1
+    100068: Floor1 2
+    100070: Floor1 3
+    100072: Floor_2nd_Floor
+    100074: Floor_BottonFloor
+    100076: Floor_Combined1
+    100078: Floor_Combined10
+    100080: Floor_Combined11
+    100082: Floor_Combined12
+    100084: Floor_Combined13
+    100086: Floor_Combined14
+    100088: Floor_Combined3
+    100090: Floor_Combined4
+    100092: Floor_Combined5
+    100094: Floor_Combined6
+    100096: Floor_Combined7
+    100098: Floor_Combined8
+    100100: Floor_Combined9
+    100102: Floor_Extrude
+    100104: Floor_Top_Floor_
+    100106: Floors
+    100108: FloorShape
+    100110: FloorShape 1
+    100112: FloorShape 2
+    100114: FloorShape 3
+    100116: FloorShape 4
+    100118: Fuel_Line
+    100120: Fuel_Line1
+    100122: Fuel_Line2
+    100124: Fuel_Line3
+    100126: Fuel_Line4
+    100128: Fuel_Line5
+    100130: Fuel_Line6
+    100132: Fuel_Line7
+    100134: Half_Circle
+    100136: Hole_Rail
+    100138: Hole_Rail 1
+    100140: Hole_Rail 2
+    100142: Hole_Rail 3
+    100144: Hole_Rail1
+    100146: Hole_Rail1 1
+    100148: Hole_Rail1 2
+    100150: Hole_Rail1 3
+    100152: Hole_Rail10
+    100154: Hole_Rail10 1
+    100156: Hole_Rail10 2
+    100158: Hole_Rail10 3
+    100160: Hole_Rail11
+    100162: Hole_Rail11 1
+    100164: Hole_Rail11 2
+    100166: Hole_Rail11 3
+    100168: Hole_Rail12
+    100170: Hole_Rail12 1
+    100172: Hole_Rail12 2
+    100174: Hole_Rail12 3
+    100176: Hole_Rail2
+    100178: Hole_Rail2 1
+    100180: Hole_Rail2 2
+    100182: Hole_Rail2 3
+    100184: Hole_Rail3
+    100186: Hole_Rail3 1
+    100188: Hole_Rail3 2
+    100190: Hole_Rail3 3
+    100192: Hole_Rail4
+    100194: Hole_Rail4 1
+    100196: Hole_Rail4 2
+    100198: Hole_Rail4 3
+    100200: Hole_Rail5
+    100202: Hole_Rail5 1
+    100204: Hole_Rail5 2
+    100206: Hole_Rail5 3
+    100208: Hole_Rail6
+    100210: Hole_Rail6 1
+    100212: Hole_Rail6 2
+    100214: Hole_Rail6 3
+    100216: Hole_Rail7
+    100218: Hole_Rail7 1
+    100220: Hole_Rail7 2
+    100222: Hole_Rail7 3
+    100224: Hole_Rail8
+    100226: Hole_Rail8 1
+    100228: Hole_Rail8 2
+    100230: Hole_Rail8 3
+    100232: Hole_Rail9
+    100234: Hole_Rail9 1
+    100236: Hole_Rail9 2
+    100238: Hole_Rail9 3
+    100240: Hole_stairs
+    100242: Hole_stairs 1
+    100244: Hole_stairs 2
+    100246: Hole_stairs 3
+    100248: Hole_stairs 4
+    100250: Hole_stairs 5
+    100252: Hole_stairs 6
+    100254: Hole_Tower1
+    100256: Hole_Tower2
+    100258: Hole_Tower3
+    100260: Hole_Towers
+    100262: HovedStolpe
+    100264: HovedStolpe 1
+    100266: HovedStolpe1
+    100268: HovedStolpe1 1
+    100270: HovedStolpe2
+    100272: HovedStolpe2 1
+    100274: HovedStolpe3
+    100276: HovedStolpe3 1
+    100278: HovedStolpe3 2
+    100280: HovedStolpe4
+    100282: HovedStolpe4 1
+    100284: HovedStolpe4 2
+    100286: HovedStolpe5
+    100288: HovedStolpe6
+    100290: ladder
+    100292: ladder 1
+    100294: Original_Rail
+    100296: pCube13
+    100298: pCube13 1
+    100300: pCube13 2
+    100302: pCube13 3
+    100304: pCube13 4
+    100306: pCube13 5
+    100308: pCube13 6
+    100310: pCube15
+    100312: pCube15 1
+    100314: pCube15 2
+    100316: pCube15 3
+    100318: pCube15 4
+    100320: pCube15 5
+    100322: pCube16
+    100324: pCube16 1
+    100326: pCube16 2
+    100328: pCube16 3
+    100330: pCube16 4
+    100332: pCube16 5
+    100334: pCube17
+    100336: pCube17 1
+    100338: pCube18
+    100340: pCube18 1
+    100342: pCylinder10
+    100344: pCylinder10 1
+    100346: pCylinder10 2
+    100348: pCylinder11
+    100350: pCylinder11 1
+    100352: pCylinder11 2
+    100354: pCylinder12
+    100356: pCylinder12 1
+    100358: pCylinder12 2
+    100360: pCylinder13
+    100362: pCylinder13 1
+    100364: pCylinder13 2
+    100366: pCylinder14
+    100368: pCylinder14 1
+    100370: pCylinder14 2
+    100372: pCylinder15
+    100374: pCylinder15 1
+    100376: pCylinder15 2
+    100378: pCylinder16
+    100380: pCylinder16 1
+    100382: pCylinder16 2
+    100384: pCylinder18
+    100386: pCylinder19
+    100388: pCylinder2
+    100390: pCylinder2 1
+    100392: pCylinder2 2
+    100394: pCylinder20
+    100396: pCylinder21
+    100398: pCylinder22
+    100400: pCylinder23
+    100402: pCylinder24
+    100404: pCylinder25
+    100406: pCylinder26
+    100408: pCylinder27
+    100410: pCylinder28
+    100412: pCylinder29
+    100414: pCylinder3
+    100416: pCylinder3 1
+    100418: pCylinder3 2
+    100420: pCylinder30
+    100422: pCylinder31
+    100424: pCylinder32
+    100426: pCylinder33
+    100428: pCylinder34
+    100430: pCylinder35
+    100432: pCylinder36
+    100434: pCylinder37
+    100436: pCylinder38
+    100438: pCylinder39
+    100440: pCylinder4
+    100442: pCylinder4 1
+    100444: pCylinder4 2
+    100446: pCylinder40
+    100448: pCylinder41
+    100450: pCylinder42
+    100452: pCylinder43
+    100454: pCylinder44
+    100456: pCylinder45
+    100458: pCylinder46
+    100460: pCylinder49
+    100462: pCylinder5
+    100464: pCylinder5 1
+    100466: pCylinder5 2
+    100468: pCylinder51
+    100470: pCylinder52
+    100472: pCylinder53
+    100474: pCylinder54
+    100476: pCylinder55
+    100478: pCylinder56
+    100480: pCylinder57
+    100482: pCylinder58
+    100484: pCylinder59
+    100486: pCylinder6
+    100488: pCylinder6 1
+    100490: pCylinder6 2
+    100492: pCylinder7
+    100494: pCylinder7 1
+    100496: pCylinder7 2
+    100498: pCylinder8
+    100500: pCylinder8 1
+    100502: pCylinder8 2
+    100504: pCylinder9
+    100506: pCylinder9 1
+    100508: pCylinder9 2
+    100510: Platform
+    100512: rail
+    100514: rail 1
+    100516: rail 2
+    100518: rail 3
+    100520: rail1
+    100522: rail1 1
+    100524: rail1 2
+    100526: rail10
+    100528: rail10 1
+    100530: rail10 2
+    100532: rail11
+    100534: rail11 1
+    100536: rail11 2
+    100538: rail12
+    100540: rail13
+    100542: rail14
+    100544: rail15
+    100546: rail16
+    100548: rail17
+    100550: rail18
+    100552: rail19
+    100554: rail2
+    100556: rail2 1
+    100558: rail2 2
+    100560: rail20
+    100562: rail21
+    100564: rail22
+    100566: rail23
+    100568: rail24
+    100570: rail25
+    100572: rail26
+    100574: rail27
+    100576: rail28
+    100578: rail29
+    100580: rail3
+    100582: rail3 1
+    100584: rail3 2
+    100586: rail30
+    100588: rail31
+    100590: rail32
+    100592: rail33
+    100594: rail35
+    100596: rail4
+    100598: rail4 1
+    100600: rail4 2
+    100602: rail5
+    100604: rail5 1
+    100606: rail5 2
+    100608: rail6
+    100610: rail6 1
+    100612: rail6 2
+    100614: rail7
+    100616: rail7 1
+    100618: rail7 2
+    100620: rail8
+    100622: rail8 1
+    100624: rail8 2
+    100626: rail9
+    100628: rail9 1
+    100630: rail9 2
+    100632: Roof
+    100634: Roof_Rod
+    100636: Roof_Rod1
+    100638: Roof_Rod2
+    100640: Roof_Rod3
+    100642: RoofRail
+    100644: SmallArm
+    100646: SmallArm 1
+    100648: Stairs
+    100650: Stairs 1
+    100652: Stairs 2
+    100654: Stairs 3
+    100656: Stairs1
+    100658: Stairs2
+    100660: Stairs3
+    100662: Thick_Rail
+    100664: Thick_Rail 1
+    100666: Thick_Rail 2
+    100668: Thick_Rail1
+    100670: Thick_Rail1 1
+    100672: Thick_Rail1 2
+    100674: Thick_Rail10
+    100676: Thick_Rail11
+    100678: Thick_Rail12
+    100680: Thick_Rail13
+    100682: Thick_Rail2
+    100684: Thick_Rail2 1
+    100686: Thick_Rail2 2
+    100688: Thick_Rail3
+    100690: Thick_Rail3 1
+    100692: Thick_Rail3 2
+    100694: Thick_Rail4
+    100696: Thick_Rail4 1
+    100698: Thick_Rail4 2
+    100700: Thick_Rail5
+    100702: Thick_Rail5 1
+    100704: Thick_Rail5 2
+    100706: Thick_Rail6
+    100708: Thick_Rail7
+    100710: Thick_Rail8
+    100712: Thick_Rail9
+    100714: Tower
+    100716: Tower2
+    100718: Tower3
+    100720: Tower4
+    100722: Tower5
+    100724: Tower6
+    100726: Tower_Top
+    100728: Tower_Top 1
+    100730: Tower_Top1
+    100732: transform1
+    100734: transform1 1
+    100736: transform1 2
+    100738: transform10
+    100740: transform11
+    100742: transform12
+    100744: transform13
+    100746: transform14
+    100748: transform15
+    100750: transform16
+    100752: transform17
+    100754: transform18
+    100756: transform19
+    100758: transform2
+    100760: transform2 1
+    100762: transform2 2
+    100764: transform2 3
+    100766: transform2 4
+    100768: transform2 5
+    100770: transform2 6
+    100772: transform20
+    100774: transform21
+    100776: transform22
+    100778: transform23
+    100780: transform24
+    100782: transform25
+    100784: transform26
+    100786: transform27
+    100788: transform28
+    100790: transform29
+    100792: transform3
+    100794: transform3 1
+    100796: transform3 2
+    100798: transform30
+    100800: transform31
+    100802: transform32
+    100804: transform33
+    100806: transform34
+    100808: transform35
+    100810: transform36
+    100812: transform37
+    100814: transform38
+    100816: transform39
+    100818: transform4
+    100820: transform4 1
+    100822: transform4 2
+    100824: transform4 3
+    100826: transform4 4
+    100828: transform4 5
+    100830: transform40
+    100832: transform41
+    100834: transform42
+    100836: transform43
+    100838: transform44
+    100840: transform45
+    100842: transform46
+    100844: transform47
+    100846: transform48
+    100848: transform49
+    100850: transform5
+    100852: transform5 1
+    100854: transform5 2
+    100856: transform5 3
+    100858: transform5 4
+    100860: transform5 5
+    100862: transform50
+    100864: transform51
+    100866: transform52
+    100868: transform53
+    100870: transform54
+    100872: transform55
+    100874: transform58
+    100876: transform59
+    100878: transform6
+    100880: transform6 1
+    100882: transform60
+    100884: transform61
+    100886: transform62
+    100888: transform63
+    100890: transform7
+    100892: transform7 1
+    100894: transform8
+    100896: transform8 1
+    100898: transform8 2
+    100900: transform8 3
+    100902: transform8 4
+    100904: transform8 5
+    100906: transform8 6
+    100908: transform9
+    100910: transform9 1
+    100912: transform9 2
+    100914: transform9 3
+    100916: transform9 4
+    100918: Ventilation_cylinder
+    100920: Ventilation_cylinder1
+    100922: Walkway_outward
+    100924: Whole_Tower
+    100926: ZicZac_Stolpe
+    100928: ZicZac_Stolpe 1
+    100930: ZicZac_Stolpe 2
+    100932: ZicZac_Stolpe1
+    100934: ZicZac_Stolpe1 1
+    100936: ZicZac_Stolpe2
+    400000: //RootNode
+    400002: Arm
+    400004: Arm 1
+    400006: Arm_Head
+    400008: Bottom_Strengt_Pillar
+    400010: Bottom_Strengt_Pillar1
+    400012: Bottom_Strengt_Pillar2
+    400014: Bottom_Strengt_Pillar3
+    400016: Bottom_Strengt_Pillar4
+    400018: Bottom_Strengt_Pillar5
+    400020: Bottom_Strengt_Pillar6
+    400022: Bottom_Strengt_Pillar7
+    400024: Door
+    400026: Door 1
+    400028: Door 2
+    400030: Door 3
+    400032: Door 4
+    400034: Door1
+    400036: Elevator
+    400038: elevator
+    400040: elevator 1
+    400042: elevator 2
+    400044: elevator 3
+    400046: elevator 4
+    400048: Elevator1
+    400050: elevator_ground
+    400052: elevator_ground 1
+    400054: Fence_Outside
+    400056: Fence_Outside 1
+    400058: Fence_Outside 2
+    400060: Fence_Outside1
+    400062: Floor
+    400064: Floor1
+    400066: Floor1 1
+    400068: Floor1 2
+    400070: Floor1 3
+    400072: Floor_2nd_Floor
+    400074: Floor_BottonFloor
+    400076: Floor_Combined1
+    400078: Floor_Combined10
+    400080: Floor_Combined11
+    400082: Floor_Combined12
+    400084: Floor_Combined13
+    400086: Floor_Combined14
+    400088: Floor_Combined3
+    400090: Floor_Combined4
+    400092: Floor_Combined5
+    400094: Floor_Combined6
+    400096: Floor_Combined7
+    400098: Floor_Combined8
+    400100: Floor_Combined9
+    400102: Floor_Extrude
+    400104: Floor_Top_Floor_
+    400106: Floors
+    400108: FloorShape
+    400110: FloorShape 1
+    400112: FloorShape 2
+    400114: FloorShape 3
+    400116: FloorShape 4
+    400118: Fuel_Line
+    400120: Fuel_Line1
+    400122: Fuel_Line2
+    400124: Fuel_Line3
+    400126: Fuel_Line4
+    400128: Fuel_Line5
+    400130: Fuel_Line6
+    400132: Fuel_Line7
+    400134: Half_Circle
+    400136: Hole_Rail
+    400138: Hole_Rail 1
+    400140: Hole_Rail 2
+    400142: Hole_Rail 3
+    400144: Hole_Rail1
+    400146: Hole_Rail1 1
+    400148: Hole_Rail1 2
+    400150: Hole_Rail1 3
+    400152: Hole_Rail10
+    400154: Hole_Rail10 1
+    400156: Hole_Rail10 2
+    400158: Hole_Rail10 3
+    400160: Hole_Rail11
+    400162: Hole_Rail11 1
+    400164: Hole_Rail11 2
+    400166: Hole_Rail11 3
+    400168: Hole_Rail12
+    400170: Hole_Rail12 1
+    400172: Hole_Rail12 2
+    400174: Hole_Rail12 3
+    400176: Hole_Rail2
+    400178: Hole_Rail2 1
+    400180: Hole_Rail2 2
+    400182: Hole_Rail2 3
+    400184: Hole_Rail3
+    400186: Hole_Rail3 1
+    400188: Hole_Rail3 2
+    400190: Hole_Rail3 3
+    400192: Hole_Rail4
+    400194: Hole_Rail4 1
+    400196: Hole_Rail4 2
+    400198: Hole_Rail4 3
+    400200: Hole_Rail5
+    400202: Hole_Rail5 1
+    400204: Hole_Rail5 2
+    400206: Hole_Rail5 3
+    400208: Hole_Rail6
+    400210: Hole_Rail6 1
+    400212: Hole_Rail6 2
+    400214: Hole_Rail6 3
+    400216: Hole_Rail7
+    400218: Hole_Rail7 1
+    400220: Hole_Rail7 2
+    400222: Hole_Rail7 3
+    400224: Hole_Rail8
+    400226: Hole_Rail8 1
+    400228: Hole_Rail8 2
+    400230: Hole_Rail8 3
+    400232: Hole_Rail9
+    400234: Hole_Rail9 1
+    400236: Hole_Rail9 2
+    400238: Hole_Rail9 3
+    400240: Hole_stairs
+    400242: Hole_stairs 1
+    400244: Hole_stairs 2
+    400246: Hole_stairs 3
+    400248: Hole_stairs 4
+    400250: Hole_stairs 5
+    400252: Hole_stairs 6
+    400254: Hole_Tower1
+    400256: Hole_Tower2
+    400258: Hole_Tower3
+    400260: Hole_Towers
+    400262: HovedStolpe
+    400264: HovedStolpe 1
+    400266: HovedStolpe1
+    400268: HovedStolpe1 1
+    400270: HovedStolpe2
+    400272: HovedStolpe2 1
+    400274: HovedStolpe3
+    400276: HovedStolpe3 1
+    400278: HovedStolpe3 2
+    400280: HovedStolpe4
+    400282: HovedStolpe4 1
+    400284: HovedStolpe4 2
+    400286: HovedStolpe5
+    400288: HovedStolpe6
+    400290: ladder
+    400292: ladder 1
+    400294: Original_Rail
+    400296: pCube13
+    400298: pCube13 1
+    400300: pCube13 2
+    400302: pCube13 3
+    400304: pCube13 4
+    400306: pCube13 5
+    400308: pCube13 6
+    400310: pCube15
+    400312: pCube15 1
+    400314: pCube15 2
+    400316: pCube15 3
+    400318: pCube15 4
+    400320: pCube15 5
+    400322: pCube16
+    400324: pCube16 1
+    400326: pCube16 2
+    400328: pCube16 3
+    400330: pCube16 4
+    400332: pCube16 5
+    400334: pCube17
+    400336: pCube17 1
+    400338: pCube18
+    400340: pCube18 1
+    400342: pCylinder10
+    400344: pCylinder10 1
+    400346: pCylinder10 2
+    400348: pCylinder11
+    400350: pCylinder11 1
+    400352: pCylinder11 2
+    400354: pCylinder12
+    400356: pCylinder12 1
+    400358: pCylinder12 2
+    400360: pCylinder13
+    400362: pCylinder13 1
+    400364: pCylinder13 2
+    400366: pCylinder14
+    400368: pCylinder14 1
+    400370: pCylinder14 2
+    400372: pCylinder15
+    400374: pCylinder15 1
+    400376: pCylinder15 2
+    400378: pCylinder16
+    400380: pCylinder16 1
+    400382: pCylinder16 2
+    400384: pCylinder18
+    400386: pCylinder19
+    400388: pCylinder2
+    400390: pCylinder2 1
+    400392: pCylinder2 2
+    400394: pCylinder20
+    400396: pCylinder21
+    400398: pCylinder22
+    400400: pCylinder23
+    400402: pCylinder24
+    400404: pCylinder25
+    400406: pCylinder26
+    400408: pCylinder27
+    400410: pCylinder28
+    400412: pCylinder29
+    400414: pCylinder3
+    400416: pCylinder3 1
+    400418: pCylinder3 2
+    400420: pCylinder30
+    400422: pCylinder31
+    400424: pCylinder32
+    400426: pCylinder33
+    400428: pCylinder34
+    400430: pCylinder35
+    400432: pCylinder36
+    400434: pCylinder37
+    400436: pCylinder38
+    400438: pCylinder39
+    400440: pCylinder4
+    400442: pCylinder4 1
+    400444: pCylinder4 2
+    400446: pCylinder40
+    400448: pCylinder41
+    400450: pCylinder42
+    400452: pCylinder43
+    400454: pCylinder44
+    400456: pCylinder45
+    400458: pCylinder46
+    400460: pCylinder49
+    400462: pCylinder5
+    400464: pCylinder5 1
+    400466: pCylinder5 2
+    400468: pCylinder51
+    400470: pCylinder52
+    400472: pCylinder53
+    400474: pCylinder54
+    400476: pCylinder55
+    400478: pCylinder56
+    400480: pCylinder57
+    400482: pCylinder58
+    400484: pCylinder59
+    400486: pCylinder6
+    400488: pCylinder6 1
+    400490: pCylinder6 2
+    400492: pCylinder7
+    400494: pCylinder7 1
+    400496: pCylinder7 2
+    400498: pCylinder8
+    400500: pCylinder8 1
+    400502: pCylinder8 2
+    400504: pCylinder9
+    400506: pCylinder9 1
+    400508: pCylinder9 2
+    400510: Platform
+    400512: rail
+    400514: rail 1
+    400516: rail 2
+    400518: rail 3
+    400520: rail1
+    400522: rail1 1
+    400524: rail1 2
+    400526: rail10
+    400528: rail10 1
+    400530: rail10 2
+    400532: rail11
+    400534: rail11 1
+    400536: rail11 2
+    400538: rail12
+    400540: rail13
+    400542: rail14
+    400544: rail15
+    400546: rail16
+    400548: rail17
+    400550: rail18
+    400552: rail19
+    400554: rail2
+    400556: rail2 1
+    400558: rail2 2
+    400560: rail20
+    400562: rail21
+    400564: rail22
+    400566: rail23
+    400568: rail24
+    400570: rail25
+    400572: rail26
+    400574: rail27
+    400576: rail28
+    400578: rail29
+    400580: rail3
+    400582: rail3 1
+    400584: rail3 2
+    400586: rail30
+    400588: rail31
+    400590: rail32
+    400592: rail33
+    400594: rail35
+    400596: rail4
+    400598: rail4 1
+    400600: rail4 2
+    400602: rail5
+    400604: rail5 1
+    400606: rail5 2
+    400608: rail6
+    400610: rail6 1
+    400612: rail6 2
+    400614: rail7
+    400616: rail7 1
+    400618: rail7 2
+    400620: rail8
+    400622: rail8 1
+    400624: rail8 2
+    400626: rail9
+    400628: rail9 1
+    400630: rail9 2
+    400632: Roof
+    400634: Roof_Rod
+    400636: Roof_Rod1
+    400638: Roof_Rod2
+    400640: Roof_Rod3
+    400642: RoofRail
+    400644: SmallArm
+    400646: SmallArm 1
+    400648: Stairs
+    400650: Stairs 1
+    400652: Stairs 2
+    400654: Stairs 3
+    400656: Stairs1
+    400658: Stairs2
+    400660: Stairs3
+    400662: Thick_Rail
+    400664: Thick_Rail 1
+    400666: Thick_Rail 2
+    400668: Thick_Rail1
+    400670: Thick_Rail1 1
+    400672: Thick_Rail1 2
+    400674: Thick_Rail10
+    400676: Thick_Rail11
+    400678: Thick_Rail12
+    400680: Thick_Rail13
+    400682: Thick_Rail2
+    400684: Thick_Rail2 1
+    400686: Thick_Rail2 2
+    400688: Thick_Rail3
+    400690: Thick_Rail3 1
+    400692: Thick_Rail3 2
+    400694: Thick_Rail4
+    400696: Thick_Rail4 1
+    400698: Thick_Rail4 2
+    400700: Thick_Rail5
+    400702: Thick_Rail5 1
+    400704: Thick_Rail5 2
+    400706: Thick_Rail6
+    400708: Thick_Rail7
+    400710: Thick_Rail8
+    400712: Thick_Rail9
+    400714: Tower
+    400716: Tower2
+    400718: Tower3
+    400720: Tower4
+    400722: Tower5
+    400724: Tower6
+    400726: Tower_Top
+    400728: Tower_Top 1
+    400730: Tower_Top1
+    400732: transform1
+    400734: transform1 1
+    400736: transform1 2
+    400738: transform10
+    400740: transform11
+    400742: transform12
+    400744: transform13
+    400746: transform14
+    400748: transform15
+    400750: transform16
+    400752: transform17
+    400754: transform18
+    400756: transform19
+    400758: transform2
+    400760: transform2 1
+    400762: transform2 2
+    400764: transform2 3
+    400766: transform2 4
+    400768: transform2 5
+    400770: transform2 6
+    400772: transform20
+    400774: transform21
+    400776: transform22
+    400778: transform23
+    400780: transform24
+    400782: transform25
+    400784: transform26
+    400786: transform27
+    400788: transform28
+    400790: transform29
+    400792: transform3
+    400794: transform3 1
+    400796: transform3 2
+    400798: transform30
+    400800: transform31
+    400802: transform32
+    400804: transform33
+    400806: transform34
+    400808: transform35
+    400810: transform36
+    400812: transform37
+    400814: transform38
+    400816: transform39
+    400818: transform4
+    400820: transform4 1
+    400822: transform4 2
+    400824: transform4 3
+    400826: transform4 4
+    400828: transform4 5
+    400830: transform40
+    400832: transform41
+    400834: transform42
+    400836: transform43
+    400838: transform44
+    400840: transform45
+    400842: transform46
+    400844: transform47
+    400846: transform48
+    400848: transform49
+    400850: transform5
+    400852: transform5 1
+    400854: transform5 2
+    400856: transform5 3
+    400858: transform5 4
+    400860: transform5 5
+    400862: transform50
+    400864: transform51
+    400866: transform52
+    400868: transform53
+    400870: transform54
+    400872: transform55
+    400874: transform58
+    400876: transform59
+    400878: transform6
+    400880: transform6 1
+    400882: transform60
+    400884: transform61
+    400886: transform62
+    400888: transform63
+    400890: transform7
+    400892: transform7 1
+    400894: transform8
+    400896: transform8 1
+    400898: transform8 2
+    400900: transform8 3
+    400902: transform8 4
+    400904: transform8 5
+    400906: transform8 6
+    400908: transform9
+    400910: transform9 1
+    400912: transform9 2
+    400914: transform9 3
+    400916: transform9 4
+    400918: Ventilation_cylinder
+    400920: Ventilation_cylinder1
+    400922: Walkway_outward
+    400924: Whole_Tower
+    400926: ZicZac_Stolpe
+    400928: ZicZac_Stolpe 1
+    400930: ZicZac_Stolpe 2
+    400932: ZicZac_Stolpe1
+    400934: ZicZac_Stolpe1 1
+    400936: ZicZac_Stolpe2
+    2300000: Arm
+    2300002: Arm_Head
+    2300004: Bottom_Strengt_Pillar
+    2300006: Bottom_Strengt_Pillar1
+    2300008: Bottom_Strengt_Pillar2
+    2300010: Bottom_Strengt_Pillar3
+    2300012: Bottom_Strengt_Pillar4
+    2300014: Bottom_Strengt_Pillar5
+    2300016: Bottom_Strengt_Pillar6
+    2300018: Bottom_Strengt_Pillar7
+    2300020: Door 1
+    2300022: Door 2
+    2300024: Door 3
+    2300026: Door 4
+    2300028: Door1
+    2300030: Elevator
+    2300032: elevator 1
+    2300034: elevator 2
+    2300036: elevator 3
+    2300038: elevator 4
+    2300040: Elevator1
+    2300042: elevator_ground
+    2300044: elevator_ground 1
+    2300046: Fence_Outside 1
+    2300048: Fence_Outside 2
+    2300050: Fence_Outside1
+    2300052: Floor1
+    2300054: Floor1 1
+    2300056: Floor1 2
+    2300058: Floor1 3
+    2300060: Floor_Combined1
+    2300062: Floor_Combined10
+    2300064: Floor_Combined11
+    2300066: Floor_Combined12
+    2300068: Floor_Combined13
+    2300070: Floor_Combined14
+    2300072: Floor_Combined3
+    2300074: Floor_Combined4
+    2300076: Floor_Combined5
+    2300078: Floor_Combined6
+    2300080: Floor_Combined7
+    2300082: Floor_Combined8
+    2300084: Floor_Combined9
+    2300086: FloorShape 1
+    2300088: FloorShape 2
+    2300090: FloorShape 3
+    2300092: FloorShape 4
+    2300094: Fuel_Line
+    2300096: Fuel_Line1
+    2300098: Fuel_Line2
+    2300100: Fuel_Line3
+    2300102: Fuel_Line4
+    2300104: Fuel_Line5
+    2300106: Fuel_Line6
+    2300108: Fuel_Line7
+    2300110: Half_Circle
+    2300112: Hole_Rail
+    2300114: Hole_Rail 1
+    2300116: Hole_Rail 2
+    2300118: Hole_Rail 3
+    2300120: Hole_Rail1
+    2300122: Hole_Rail1 1
+    2300124: Hole_Rail1 2
+    2300126: Hole_Rail1 3
+    2300128: Hole_Rail10
+    2300130: Hole_Rail10 1
+    2300132: Hole_Rail10 2
+    2300134: Hole_Rail10 3
+    2300136: Hole_Rail11
+    2300138: Hole_Rail11 1
+    2300140: Hole_Rail11 2
+    2300142: Hole_Rail11 3
+    2300144: Hole_Rail12
+    2300146: Hole_Rail12 1
+    2300148: Hole_Rail12 2
+    2300150: Hole_Rail12 3
+    2300152: Hole_Rail2
+    2300154: Hole_Rail2 1
+    2300156: Hole_Rail2 2
+    2300158: Hole_Rail2 3
+    2300160: Hole_Rail3
+    2300162: Hole_Rail3 1
+    2300164: Hole_Rail3 2
+    2300166: Hole_Rail3 3
+    2300168: Hole_Rail4
+    2300170: Hole_Rail4 1
+    2300172: Hole_Rail4 2
+    2300174: Hole_Rail4 3
+    2300176: Hole_Rail5
+    2300178: Hole_Rail5 1
+    2300180: Hole_Rail5 2
+    2300182: Hole_Rail5 3
+    2300184: Hole_Rail6
+    2300186: Hole_Rail6 1
+    2300188: Hole_Rail6 2
+    2300190: Hole_Rail6 3
+    2300192: Hole_Rail7
+    2300194: Hole_Rail7 1
+    2300196: Hole_Rail7 2
+    2300198: Hole_Rail7 3
+    2300200: Hole_Rail8
+    2300202: Hole_Rail8 1
+    2300204: Hole_Rail8 2
+    2300206: Hole_Rail8 3
+    2300208: Hole_Rail9
+    2300210: Hole_Rail9 1
+    2300212: Hole_Rail9 2
+    2300214: Hole_Rail9 3
+    2300216: Hole_Tower1
+    2300218: Hole_Tower2
+    2300220: Hole_Tower3
+    2300222: Hole_Towers
+    2300224: HovedStolpe 1
+    2300226: HovedStolpe1 1
+    2300228: HovedStolpe2 1
+    2300230: HovedStolpe3
+    2300232: HovedStolpe3 2
+    2300234: HovedStolpe4
+    2300236: HovedStolpe4 2
+    2300238: HovedStolpe5
+    2300240: HovedStolpe6
+    2300242: ladder 1
+    2300244: Original_Rail
+    2300246: pCylinder10 1
+    2300248: pCylinder10 2
+    2300250: pCylinder11 1
+    2300252: pCylinder11 2
+    2300254: pCylinder12 1
+    2300256: pCylinder12 2
+    2300258: pCylinder13 1
+    2300260: pCylinder13 2
+    2300262: pCylinder14 1
+    2300264: pCylinder14 2
+    2300266: pCylinder15 1
+    2300268: pCylinder15 2
+    2300270: pCylinder16 1
+    2300272: pCylinder16 2
+    2300274: pCylinder18
+    2300276: pCylinder19
+    2300278: pCylinder2 1
+    2300280: pCylinder2 2
+    2300282: pCylinder20
+    2300284: pCylinder21
+    2300286: pCylinder22
+    2300288: pCylinder23
+    2300290: pCylinder24
+    2300292: pCylinder25
+    2300294: pCylinder26
+    2300296: pCylinder27
+    2300298: pCylinder28
+    2300300: pCylinder29
+    2300302: pCylinder3 1
+    2300304: pCylinder3 2
+    2300306: pCylinder30
+    2300308: pCylinder31
+    2300310: pCylinder32
+    2300312: pCylinder33
+    2300314: pCylinder34
+    2300316: pCylinder35
+    2300318: pCylinder36
+    2300320: pCylinder37
+    2300322: pCylinder38
+    2300324: pCylinder39
+    2300326: pCylinder4 1
+    2300328: pCylinder4 2
+    2300330: pCylinder40
+    2300332: pCylinder41
+    2300334: pCylinder42
+    2300336: pCylinder43
+    2300338: pCylinder44
+    2300340: pCylinder45
+    2300342: pCylinder46
+    2300344: pCylinder49
+    2300346: pCylinder5 1
+    2300348: pCylinder5 2
+    2300350: pCylinder51
+    2300352: pCylinder52
+    2300354: pCylinder53
+    2300356: pCylinder54
+    2300358: pCylinder55
+    2300360: pCylinder56
+    2300362: pCylinder57
+    2300364: pCylinder58
+    2300366: pCylinder59
+    2300368: pCylinder6 1
+    2300370: pCylinder6 2
+    2300372: pCylinder7 1
+    2300374: pCylinder7 2
+    2300376: pCylinder8 1
+    2300378: pCylinder8 2
+    2300380: pCylinder9 1
+    2300382: pCylinder9 2
+    2300384: Platform
+    2300386: rail
+    2300388: rail 2
+    2300390: rail 3
+    2300392: rail1 1
+    2300394: rail1 2
+    2300396: rail10 1
+    2300398: rail10 2
+    2300400: rail11 1
+    2300402: rail11 2
+    2300404: rail12
+    2300406: rail13
+    2300408: rail14
+    2300410: rail15
+    2300412: rail16
+    2300414: rail17
+    2300416: rail18
+    2300418: rail19
+    2300420: rail2 1
+    2300422: rail2 2
+    2300424: rail20
+    2300426: rail21
+    2300428: rail22
+    2300430: rail23
+    2300432: rail24
+    2300434: rail25
+    2300436: rail26
+    2300438: rail27
+    2300440: rail28
+    2300442: rail29
+    2300444: rail3 1
+    2300446: rail3 2
+    2300448: rail30
+    2300450: rail31
+    2300452: rail32
+    2300454: rail33
+    2300456: rail35
+    2300458: rail4 1
+    2300460: rail4 2
+    2300462: rail5 1
+    2300464: rail5 2
+    2300466: rail6 1
+    2300468: rail6 2
+    2300470: rail7 1
+    2300472: rail7 2
+    2300474: rail8 1
+    2300476: rail8 2
+    2300478: rail9 1
+    2300480: rail9 2
+    2300482: Roof_Rod
+    2300484: Roof_Rod1
+    2300486: Roof_Rod2
+    2300488: Roof_Rod3
+    2300490: RoofRail
+    2300492: SmallArm 1
+    2300494: Stairs 1
+    2300496: Stairs 2
+    2300498: Stairs 3
+    2300500: Stairs1
+    2300502: Stairs2
+    2300504: Stairs3
+    2300506: Thick_Rail10
+    2300508: Thick_Rail11
+    2300510: Thick_Rail12
+    2300512: Thick_Rail13
+    2300514: Thick_Rail2 1
+    2300516: Thick_Rail2 2
+    2300518: Thick_Rail3 1
+    2300520: Thick_Rail3 2
+    2300522: Thick_Rail4 1
+    2300524: Thick_Rail4 2
+    2300526: Thick_Rail5 1
+    2300528: Thick_Rail5 2
+    2300530: Thick_Rail6
+    2300532: Thick_Rail7
+    2300534: Thick_Rail8
+    2300536: Thick_Rail9
+    2300538: Tower6
+    2300540: Ventilation_cylinder
+    2300542: Ventilation_cylinder1
+    2300544: Walkway_outward
+    2300546: Whole_Tower
+    2300548: ZicZac_Stolpe 1
+    2300550: ZicZac_Stolpe 2
+    2300552: ZicZac_Stolpe1 1
+    2300554: ZicZac_Stolpe2
+    3300000: Arm
+    3300002: Arm_Head
+    3300004: Bottom_Strengt_Pillar
+    3300006: Bottom_Strengt_Pillar1
+    3300008: Bottom_Strengt_Pillar2
+    3300010: Bottom_Strengt_Pillar3
+    3300012: Bottom_Strengt_Pillar4
+    3300014: Bottom_Strengt_Pillar5
+    3300016: Bottom_Strengt_Pillar6
+    3300018: Bottom_Strengt_Pillar7
+    3300020: Door 1
+    3300022: Door 2
+    3300024: Door 3
+    3300026: Door 4
+    3300028: Door1
+    3300030: Elevator
+    3300032: elevator 1
+    3300034: elevator 2
+    3300036: elevator 3
+    3300038: elevator 4
+    3300040: Elevator1
+    3300042: elevator_ground
+    3300044: elevator_ground 1
+    3300046: Fence_Outside 1
+    3300048: Fence_Outside 2
+    3300050: Fence_Outside1
+    3300052: Floor1
+    3300054: Floor1 1
+    3300056: Floor1 2
+    3300058: Floor1 3
+    3300060: Floor_Combined1
+    3300062: Floor_Combined10
+    3300064: Floor_Combined11
+    3300066: Floor_Combined12
+    3300068: Floor_Combined13
+    3300070: Floor_Combined14
+    3300072: Floor_Combined3
+    3300074: Floor_Combined4
+    3300076: Floor_Combined5
+    3300078: Floor_Combined6
+    3300080: Floor_Combined7
+    3300082: Floor_Combined8
+    3300084: Floor_Combined9
+    3300086: FloorShape 1
+    3300088: FloorShape 2
+    3300090: FloorShape 3
+    3300092: FloorShape 4
+    3300094: Fuel_Line
+    3300096: Fuel_Line1
+    3300098: Fuel_Line2
+    3300100: Fuel_Line3
+    3300102: Fuel_Line4
+    3300104: Fuel_Line5
+    3300106: Fuel_Line6
+    3300108: Fuel_Line7
+    3300110: Half_Circle
+    3300112: Hole_Rail
+    3300114: Hole_Rail 1
+    3300116: Hole_Rail 2
+    3300118: Hole_Rail 3
+    3300120: Hole_Rail1
+    3300122: Hole_Rail1 1
+    3300124: Hole_Rail1 2
+    3300126: Hole_Rail1 3
+    3300128: Hole_Rail10
+    3300130: Hole_Rail10 1
+    3300132: Hole_Rail10 2
+    3300134: Hole_Rail10 3
+    3300136: Hole_Rail11
+    3300138: Hole_Rail11 1
+    3300140: Hole_Rail11 2
+    3300142: Hole_Rail11 3
+    3300144: Hole_Rail12
+    3300146: Hole_Rail12 1
+    3300148: Hole_Rail12 2
+    3300150: Hole_Rail12 3
+    3300152: Hole_Rail2
+    3300154: Hole_Rail2 1
+    3300156: Hole_Rail2 2
+    3300158: Hole_Rail2 3
+    3300160: Hole_Rail3
+    3300162: Hole_Rail3 1
+    3300164: Hole_Rail3 2
+    3300166: Hole_Rail3 3
+    3300168: Hole_Rail4
+    3300170: Hole_Rail4 1
+    3300172: Hole_Rail4 2
+    3300174: Hole_Rail4 3
+    3300176: Hole_Rail5
+    3300178: Hole_Rail5 1
+    3300180: Hole_Rail5 2
+    3300182: Hole_Rail5 3
+    3300184: Hole_Rail6
+    3300186: Hole_Rail6 1
+    3300188: Hole_Rail6 2
+    3300190: Hole_Rail6 3
+    3300192: Hole_Rail7
+    3300194: Hole_Rail7 1
+    3300196: Hole_Rail7 2
+    3300198: Hole_Rail7 3
+    3300200: Hole_Rail8
+    3300202: Hole_Rail8 1
+    3300204: Hole_Rail8 2
+    3300206: Hole_Rail8 3
+    3300208: Hole_Rail9
+    3300210: Hole_Rail9 1
+    3300212: Hole_Rail9 2
+    3300214: Hole_Rail9 3
+    3300216: Hole_Tower1
+    3300218: Hole_Tower2
+    3300220: Hole_Tower3
+    3300222: Hole_Towers
+    3300224: HovedStolpe 1
+    3300226: HovedStolpe1 1
+    3300228: HovedStolpe2 1
+    3300230: HovedStolpe3
+    3300232: HovedStolpe3 2
+    3300234: HovedStolpe4
+    3300236: HovedStolpe4 2
+    3300238: HovedStolpe5
+    3300240: HovedStolpe6
+    3300242: ladder 1
+    3300244: Original_Rail
+    3300246: pCylinder10 1
+    3300248: pCylinder10 2
+    3300250: pCylinder11 1
+    3300252: pCylinder11 2
+    3300254: pCylinder12 1
+    3300256: pCylinder12 2
+    3300258: pCylinder13 1
+    3300260: pCylinder13 2
+    3300262: pCylinder14 1
+    3300264: pCylinder14 2
+    3300266: pCylinder15 1
+    3300268: pCylinder15 2
+    3300270: pCylinder16 1
+    3300272: pCylinder16 2
+    3300274: pCylinder18
+    3300276: pCylinder19
+    3300278: pCylinder2 1
+    3300280: pCylinder2 2
+    3300282: pCylinder20
+    3300284: pCylinder21
+    3300286: pCylinder22
+    3300288: pCylinder23
+    3300290: pCylinder24
+    3300292: pCylinder25
+    3300294: pCylinder26
+    3300296: pCylinder27
+    3300298: pCylinder28
+    3300300: pCylinder29
+    3300302: pCylinder3 1
+    3300304: pCylinder3 2
+    3300306: pCylinder30
+    3300308: pCylinder31
+    3300310: pCylinder32
+    3300312: pCylinder33
+    3300314: pCylinder34
+    3300316: pCylinder35
+    3300318: pCylinder36
+    3300320: pCylinder37
+    3300322: pCylinder38
+    3300324: pCylinder39
+    3300326: pCylinder4 1
+    3300328: pCylinder4 2
+    3300330: pCylinder40
+    3300332: pCylinder41
+    3300334: pCylinder42
+    3300336: pCylinder43
+    3300338: pCylinder44
+    3300340: pCylinder45
+    3300342: pCylinder46
+    3300344: pCylinder49
+    3300346: pCylinder5 1
+    3300348: pCylinder5 2
+    3300350: pCylinder51
+    3300352: pCylinder52
+    3300354: pCylinder53
+    3300356: pCylinder54
+    3300358: pCylinder55
+    3300360: pCylinder56
+    3300362: pCylinder57
+    3300364: pCylinder58
+    3300366: pCylinder59
+    3300368: pCylinder6 1
+    3300370: pCylinder6 2
+    3300372: pCylinder7 1
+    3300374: pCylinder7 2
+    3300376: pCylinder8 1
+    3300378: pCylinder8 2
+    3300380: pCylinder9 1
+    3300382: pCylinder9 2
+    3300384: Platform
+    3300386: rail
+    3300388: rail 2
+    3300390: rail 3
+    3300392: rail1 1
+    3300394: rail1 2
+    3300396: rail10 1
+    3300398: rail10 2
+    3300400: rail11 1
+    3300402: rail11 2
+    3300404: rail12
+    3300406: rail13
+    3300408: rail14
+    3300410: rail15
+    3300412: rail16
+    3300414: rail17
+    3300416: rail18
+    3300418: rail19
+    3300420: rail2 1
+    3300422: rail2 2
+    3300424: rail20
+    3300426: rail21
+    3300428: rail22
+    3300430: rail23
+    3300432: rail24
+    3300434: rail25
+    3300436: rail26
+    3300438: rail27
+    3300440: rail28
+    3300442: rail29
+    3300444: rail3 1
+    3300446: rail3 2
+    3300448: rail30
+    3300450: rail31
+    3300452: rail32
+    3300454: rail33
+    3300456: rail35
+    3300458: rail4 1
+    3300460: rail4 2
+    3300462: rail5 1
+    3300464: rail5 2
+    3300466: rail6 1
+    3300468: rail6 2
+    3300470: rail7 1
+    3300472: rail7 2
+    3300474: rail8 1
+    3300476: rail8 2
+    3300478: rail9 1
+    3300480: rail9 2
+    3300482: Roof_Rod
+    3300484: Roof_Rod1
+    3300486: Roof_Rod2
+    3300488: Roof_Rod3
+    3300490: RoofRail
+    3300492: SmallArm 1
+    3300494: Stairs 1
+    3300496: Stairs 2
+    3300498: Stairs 3
+    3300500: Stairs1
+    3300502: Stairs2
+    3300504: Stairs3
+    3300506: Thick_Rail10
+    3300508: Thick_Rail11
+    3300510: Thick_Rail12
+    3300512: Thick_Rail13
+    3300514: Thick_Rail2 1
+    3300516: Thick_Rail2 2
+    3300518: Thick_Rail3 1
+    3300520: Thick_Rail3 2
+    3300522: Thick_Rail4 1
+    3300524: Thick_Rail4 2
+    3300526: Thick_Rail5 1
+    3300528: Thick_Rail5 2
+    3300530: Thick_Rail6
+    3300532: Thick_Rail7
+    3300534: Thick_Rail8
+    3300536: Thick_Rail9
+    3300538: Tower6
+    3300540: Ventilation_cylinder
+    3300542: Ventilation_cylinder1
+    3300544: Walkway_outward
+    3300546: Whole_Tower
+    3300548: ZicZac_Stolpe 1
+    3300550: ZicZac_Stolpe 2
+    3300552: ZicZac_Stolpe1 1
+    3300554: ZicZac_Stolpe2
+    4300000: SmallArm
+    4300002: pCylinder59
+    4300004: Arm
+    4300006: Arm_Head
+    4300008: Ventilation_cylinder
+    4300010: Ventilation_cylinder1
+    4300012: Platform
+    4300014: Hole_Towers
+    4300016: Hole_Rail
+    4300018: Hole_Rail1
+    4300020: Hole_Rail2
+    4300022: Hole_Rail3
+    4300024: Hole_Rail4
+    4300026: Hole_Rail5
+    4300028: Hole_Rail6
+    4300030: Hole_Rail7
+    4300032: Hole_Rail8
+    4300034: Hole_Rail9
+    4300036: Hole_Rail10
+    4300038: Hole_Rail11
+    4300040: Hole_Rail12
+    4300042: Hole_Tower1
+    4300044: Hole_Rail
+    4300046: Hole_Rail1
+    4300048: Hole_Rail2
+    4300050: Hole_Rail3
+    4300052: Hole_Rail4
+    4300054: Hole_Rail5
+    4300056: Hole_Rail6
+    4300058: Hole_Rail7
+    4300060: Hole_Rail8
+    4300062: Hole_Rail9
+    4300064: Hole_Rail10
+    4300066: Hole_Rail11
+    4300068: Hole_Rail12
+    4300070: Hole_Tower2
+    4300072: Hole_Rail
+    4300074: Hole_Rail1
+    4300076: Hole_Rail2
+    4300078: Hole_Rail3
+    4300080: Hole_Rail4
+    4300082: Hole_Rail5
+    4300084: Hole_Rail6
+    4300086: Hole_Rail7
+    4300088: Hole_Rail8
+    4300090: Hole_Rail9
+    4300092: Hole_Rail10
+    4300094: Hole_Rail11
+    4300096: Hole_Rail12
+    4300098: Hole_Tower3
+    4300100: Hole_Rail
+    4300102: Hole_Rail1
+    4300104: Hole_Rail2
+    4300106: Hole_Rail3
+    4300108: Hole_Rail4
+    4300110: Hole_Rail5
+    4300112: Hole_Rail6
+    4300114: Hole_Rail7
+    4300116: Hole_Rail8
+    4300118: Hole_Rail9
+    4300120: Hole_Rail10
+    4300122: Hole_Rail11
+    4300124: Hole_Rail12
+    4300126: Whole_Tower
+    4300128: Half_Circle
+    4300130: Walkway_outward
+    4300132: RoofRail
+    4300134: pCylinder51
+    4300136: pCylinder52
+    4300138: pCylinder53
+    4300140: pCylinder54
+    4300142: pCylinder55
+    4300144: pCylinder56
+    4300146: pCylinder57
+    4300148: pCylinder58
+    4300150: pCylinder49
+    4300152: Original_Rail
+    4300154: Roof_Rod
+    4300156: Roof_Rod1
+    4300158: Roof_Rod2
+    4300160: Roof_Rod3
+    4300162: Tower6
+    4300164: Fuel_Line
+    4300166: Fuel_Line1
+    4300168: Fuel_Line2
+    4300170: Fuel_Line3
+    4300172: Fuel_Line4
+    4300174: Fuel_Line5
+    4300176: Fuel_Line6
+    4300178: Fuel_Line7
+    4300180: Elevator1
+    4300182: elevator_ground
+    4300184: Floor_Combined3
+    4300186: Floor_Combined4
+    4300188: Floor_Combined5
+    4300190: Floor_Combined6
+    4300192: Floor_Combined7
+    4300194: Floor_Combined8
+    4300196: Floor_Combined9
+    4300198: Floor_Combined10
+    4300200: Floor_Combined11
+    4300202: Floor_Combined12
+    4300204: Floor_Combined13
+    4300206: Floor_Combined14
+    4300208: Floor_Combined1
+    4300210: FloorShape
+    4300212: Floor1
+    4300214: Fence_Outside
+    4300216: pCylinder2
+    4300218: pCylinder3
+    4300220: pCylinder4
+    4300222: pCylinder5
+    4300224: pCylinder6
+    4300226: pCylinder7
+    4300228: pCylinder8
+    4300230: pCylinder9
+    4300232: pCylinder10
+    4300234: pCylinder11
+    4300236: pCylinder12
+    4300238: pCylinder13
+    4300240: pCylinder14
+    4300242: pCylinder15
+    4300244: pCylinder16
+    4300246: rail
+    4300248: rail1
+    4300250: rail2
+    4300252: rail3
+    4300254: rail4
+    4300256: rail5
+    4300258: rail6
+    4300260: rail7
+    4300262: rail8
+    4300264: rail9
+    4300266: rail10
+    4300268: rail11
+    4300270: Thick_Rail2
+    4300272: Thick_Rail3
+    4300274: Thick_Rail4
+    4300276: Thick_Rail5
+    4300278: Door
+    4300280: HovedStolpe
+    4300282: HovedStolpe1
+    4300284: HovedStolpe2
+    4300286: HovedStolpe3
+    4300288: HovedStolpe4
+    4300290: ZicZac_Stolpe
+    4300292: ZicZac_Stolpe1
+    4300294: elevator
+    4300296: FloorShape
+    4300298: Floor1
+    4300300: Door
+    4300302: Stairs
+    4300304: elevator
+    4300306: Stairs1
+    4300308: Stairs2
+    4300310: Stairs3
+    4300312: Door1
+    4300314: rail
+    4300316: pCylinder18
+    4300318: pCylinder19
+    4300320: pCylinder20
+    4300322: pCylinder21
+    4300324: pCylinder22
+    4300326: pCylinder23
+    4300328: pCylinder24
+    4300330: pCylinder25
+    4300332: pCylinder26
+    4300334: pCylinder27
+    4300336: pCylinder28
+    4300338: pCylinder29
+    4300340: pCylinder30
+    4300342: pCylinder31
+    4300344: rail12
+    4300346: rail13
+    4300348: rail14
+    4300350: rail15
+    4300352: rail16
+    4300354: rail17
+    4300356: rail18
+    4300358: rail19
+    4300360: rail20
+    4300362: rail21
+    4300364: rail22
+    4300366: rail23
+    4300368: FloorShape
+    4300370: Floor1
+    4300372: Door
+    4300374: Stairs
+    4300376: elevator
+    4300378: Fence_Outside
+    4300380: pCylinder32
+    4300382: pCylinder33
+    4300384: pCylinder34
+    4300386: pCylinder35
+    4300388: pCylinder36
+    4300390: pCylinder37
+    4300392: pCylinder38
+    4300394: pCylinder39
+    4300396: pCylinder40
+    4300398: pCylinder41
+    4300400: pCylinder42
+    4300402: pCylinder43
+    4300404: pCylinder44
+    4300406: pCylinder45
+    4300408: pCylinder46
+    4300410: rail24
+    4300412: rail25
+    4300414: rail26
+    4300416: rail27
+    4300418: rail28
+    4300420: rail29
+    4300422: rail30
+    4300424: rail31
+    4300426: rail32
+    4300428: rail33
+    4300430: rail35
+    4300432: FloorShape
+    4300434: Floor1
+    4300436: Door
+    4300438: HovedStolpe4
+    4300440: HovedStolpe3
+    4300442: ZicZac_Stolpe
+    4300444: Stairs
+    4300446: ladder
+    4300448: elevator
+    4300450: HovedStolpe5
+    4300452: HovedStolpe6
+    4300454: Fence_Outside1
+    4300456: pCylinder2
+    4300458: pCylinder3
+    4300460: pCylinder4
+    4300462: pCylinder5
+    4300464: pCylinder6
+    4300466: pCylinder7
+    4300468: pCylinder8
+    4300470: pCylinder9
+    4300472: pCylinder10
+    4300474: pCylinder11
+    4300476: pCylinder12
+    4300478: pCylinder13
+    4300480: pCylinder14
+    4300482: pCylinder15
+    4300484: pCylinder16
+    4300486: rail
+    4300488: rail1
+    4300490: rail2
+    4300492: rail3
+    4300494: rail4
+    4300496: rail5
+    4300498: rail6
+    4300500: rail7
+    4300502: rail8
+    4300504: rail9
+    4300506: rail10
+    4300508: rail11
+    4300510: Thick_Rail2
+    4300512: Thick_Rail3
+    4300514: Thick_Rail4
+    4300516: Thick_Rail5
+    4300518: Thick_Rail6
+    4300520: Thick_Rail7
+    4300522: Thick_Rail8
+    4300524: Thick_Rail9
+    4300526: Thick_Rail10
+    4300528: Thick_Rail11
+    4300530: Thick_Rail12
+    4300532: Thick_Rail13
+    4300534: ZicZac_Stolpe2
+    4300536: Bottom_Strengt_Pillar
+    4300538: Bottom_Strengt_Pillar1
+    4300540: Bottom_Strengt_Pillar2
+    4300542: Bottom_Strengt_Pillar3
+    4300544: Bottom_Strengt_Pillar4
+    4300546: Bottom_Strengt_Pillar5
+    4300548: Bottom_Strengt_Pillar6
+    4300550: Bottom_Strengt_Pillar7
+    4300552: Elevator
+    4300554: elevator_ground
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
