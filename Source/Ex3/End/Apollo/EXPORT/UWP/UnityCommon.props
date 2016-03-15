@@ -1,8 +1,0 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <PropertyGroup>
-        <UnityInstallationDir>D:\Program Files\Unity\Editor</UnityInstallationDir>
-        <UnityWSAPlayerDir>D:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport</UnityWSAPlayerDir>
-        <UnityWSAToolsDir>$(SolutionDir)Unity\Tools</UnityWSAToolsDir>
-        <UnityProjectDir>D:\Repos\Workshops\CodeLabs\Workshops\Games\Module4-GraphicsDiag\Source\Ex3\End\Apollo</UnityProjectDir>
-    </PropertyGroup>
-</Project>
