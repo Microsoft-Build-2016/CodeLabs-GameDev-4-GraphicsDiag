@@ -340,7 +340,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 00c2ab194c8ad201
+  metroCertificateNotAfter: 008275ee019ed201
   metroApplicationDescription: Apollo
   wsaImages: {}
   metroTileShortName: 
