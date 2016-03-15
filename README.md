@@ -436,10 +436,12 @@ The designer of the launchtower model created another version that got the tower
 In the EndProject folder, the new model has replaced the existing one.
 
 **Step 8: Test**
+
 You can directly open the exported UWP of the EndProject, run it and capture a frame.
 You can now see that the most of the tower is rendered in only a couple of drawcalls. 
 
 **The End**
+
 Thank you for going through this lab. We hope that by going through these steps, you have learned how you can use the Diagnostics Tools in your own graphical projects. There are many other problems in this solution, so you you want to go even further, feel free to spend some more time with it.
 
 Thank you!
