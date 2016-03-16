@@ -35,7 +35,7 @@ Once the export is done, the new folder should automatically open. Open the Apol
 ![Image](media/image014.jpg)
 
 Once Visual Studio loads the project, change the build configuration to x86, and make sure that it is in Debug. Click the Local Machine button to build, deploy and run the solution and test that it works:
-![Image](media/image015.jpg)
+![Image](media/image015.png)
 
 Note: Some build error messages might appear since this is the first time we are building the solution. This is normal as long as the build process is continuing.
 
@@ -48,7 +48,7 @@ Stop the game.
 **Step 4: Running the Profiler**
 
 Click Debug->Start Diagnostics Tools Without Debugging…
-![Image](media/image016.jpg)
+![Image](media/image016.png)
 
 Run the game with only the CPU Usage enabled. If the GPU profiler is enabled, tick that off since we will only be using the CPU Profiler.
 ![Image](media/image018.jpg)
