@@ -50,7 +50,7 @@ Stop the game.
 Click Debug->Start Diagnostics Tools Without Debugging…
 ![Image](media/image016.jpg)
 
-Run the game with CPU Usage and the GPU Usage Profiler enabled. If the game flickers a lot, stop the game and start it with the CPU Usage flag only.
+Run the game with CPU Usage enabled. If the GPU profiler is enabled, tick that of. If the game flickers a lot, stop the game and start it with the CPU Usage flag only.
 ![Image](media/image018.jpg)
 
 Next, click start to run the game with the profiler:
@@ -60,17 +60,6 @@ Do a launch and let the game run for a few seconds before clicking the STOP butt
 ![Image](media/image022.jpg)
 
 The Graphics Diagnostics tools will gather some information. 
-
-**Optional: Use the GPU Profiler**
-If using the GPU Profiler: Once it is done, select up to a range of three seconds by clicking and dragging on the graph:
-![Image](media/image024.jpg)
-
-Once you have your range selected, click VIEW DETAILS to see the analysis of the selected interval.
-![Image](media/image026.jpg)
-
-See in the GPU profiler that it’s the CPU that’s having the load, GPU got nice chunks, indicating a drawcall.
-
- 
 
 **Step 5: Checking the CPU Profiler**
 
