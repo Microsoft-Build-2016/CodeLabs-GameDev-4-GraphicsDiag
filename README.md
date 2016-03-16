@@ -324,7 +324,7 @@ By this stage, we are already familiar with how the game works and how to export
 Export the game from Unity
 
 In Unity, click File->Build Settings
-![Image](media/iimage007.jpg)
+![Image](media/image007.jpg)
 
 Ensure that Windows Store, and from the dropdown, Universal 10 is selected
 ![Image](media/image008.png)
@@ -350,7 +350,7 @@ Note: Some build error messages might appear since this is the first time we are
 **Step 3: Run in Graphics Debug mode**
 
 Let’s run this with the Graphics Diagnostics by clicking Debug->Graphics->Start Diagnostics
-![Image](media/image084.jpg)
+![Image](media/image084.png)
 
 When running the game now, you are presented with performance graphs, as well as a Capture Frame button:
 ![Image](media/image051.jpg)
