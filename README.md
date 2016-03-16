@@ -324,7 +324,7 @@ By this stage, we are already familiar with how the game works and how to export
 Export the game from Unity
 
 In Unity, click File->Build Settings
-![Image](media/iimage007.png)
+![Image](media/iimage007.jpg)
 
 Ensure that Windows Store, and from the dropdown, Universal 10 is selected
 ![Image](media/image008.png)
