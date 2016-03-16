@@ -50,7 +50,7 @@ Stop the game.
 Click Debug->Start Diagnostics Tools Without Debugging…
 ![Image](media/image016.jpg)
 
-Run the game with CPU Usage enabled. If the GPU profiler is enabled, tick that of. If the game flickers a lot, stop the game and start it with the CPU Usage flag only.
+Run the game with only the CPU Usage enabled. If the GPU profiler is enabled, tick that off since we will only be using the CPU Profiler.
 ![Image](media/image018.jpg)
 
 Next, click start to run the game with the profiler:
