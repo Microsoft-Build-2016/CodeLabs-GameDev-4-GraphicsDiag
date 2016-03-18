@@ -1,3 +1,36 @@
+<a name="HOLTop" ></a>
+# Graphics Diagnostics and Performance Tuning for Games with VS2015 #
+
+---
+
+<a name="Overview" ></a>
+## Overview ##
+
+There are many things that can go wrong when developing game, including memory issues, rendering issues, strange behaviors, performance issues, hardware issues and much more. In this session, you will get hands on experience with the **Visual Studio Graphics Diagnostics tools**  to help you in situations where your game needs analysis and debugging. You will learn how the tools work, and how to use them to solve different graphical issues.
+
+
+
+<a name="Objectives" ></a>
+### Objectives ###
+In this module, you will:
+
+- Use the CPU Profiling tools to identify performance issues
+- Use the Frame Capture tool and shader debugger to identify errors in the shaders
+- Use the Event view to see drawcalls and possibilities for performane optimization
+
+<a name="Prerequisites"></a>
+### Prerequisites ###
+
+The following is required to complete this module:
+
+- [Visual Studio Community 2015][1] or greater
+- [VS Graphics Diagnostics Tools][2]
+
+[1]: https://www.visualstudio.com/products/visual-studio-community-vs
+[2]: https://msdn.microsoft.com/en-us/library/mt125501.aspx
+
+> **Note:** You can take advantage of the [Visual Studio Dev Essentials]( https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx) subscription in order to get everything you need to build and deploy your app on any platform.
+
 #Challenge 1: Profiling#
 
 **Step 1: Welcome!**
