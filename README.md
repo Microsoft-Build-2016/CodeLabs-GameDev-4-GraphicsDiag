@@ -383,18 +383,12 @@ Note: Some build error messages might appear since this is the first time we are
 **Step 3: Run in Graphics Debug mode**
 
 Let’s run this with the Graphics Diagnostics by clicking Debug->Graphics->Start Diagnostics
-![Image](media/image084.png)
+![Image](media/image084.jpg)
 
 When running the game now, you are presented with performance graphs, as well as a Capture Frame button:
 ![Image](media/image051.jpg)
 
 To capture a frame, you can click the Capture Frame button, or press Print screen on the keyboard when having the app in focus.
-
-We are interested in finding out what’s happening with the moon. When the game starts, it’s stationary on the Launchpad, and the broken white moon is visible in the background.
-
-When the moon is visible, capture a frame by clicking the button or using Print screen.
-
-Then, when the frame is captured, you can see it visible where the capture frame button was.
 
 Stop the session by clicking the Stop button:
 ![Image](media/image085.jpg)
