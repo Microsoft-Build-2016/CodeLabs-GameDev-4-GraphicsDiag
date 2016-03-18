@@ -474,6 +474,9 @@ ModelImporter:
     100932: ZicZac_Stolpe1
     100934: ZicZac_Stolpe1 1
     100936: ZicZac_Stolpe2
+    100938: polySurface1
+    100940: polySurface1_MeshPart0
+    100942: polySurface1_MeshPart1
     400000: //RootNode
     400002: Arm
     400004: Arm 1
@@ -943,6 +946,9 @@ ModelImporter:
     400932: ZicZac_Stolpe1
     400934: ZicZac_Stolpe1 1
     400936: ZicZac_Stolpe2
+    400938: polySurface1
+    400940: polySurface1_MeshPart0
+    400942: polySurface1_MeshPart1
     2300000: Arm
     2300002: Arm_Head
     2300004: Bottom_Strengt_Pillar
@@ -1221,6 +1227,8 @@ ModelImporter:
     2300550: ZicZac_Stolpe 2
     2300552: ZicZac_Stolpe1 1
     2300554: ZicZac_Stolpe2
+    2300556: polySurface1_MeshPart0
+    2300558: polySurface1_MeshPart1
     3300000: Arm
     3300002: Arm_Head
     3300004: Bottom_Strengt_Pillar
@@ -1499,6 +1507,8 @@ ModelImporter:
     3300550: ZicZac_Stolpe 2
     3300552: ZicZac_Stolpe1 1
     3300554: ZicZac_Stolpe2
+    3300556: polySurface1_MeshPart0
+    3300558: polySurface1_MeshPart1
     4300000: SmallArm
     4300002: pCylinder59
     4300004: Arm
@@ -1777,6 +1787,8 @@ ModelImporter:
     4300550: Bottom_Strengt_Pillar7
     4300552: Elevator
     4300554: elevator_ground
+    4300556: polySurface1_MeshPart0
+    4300558: polySurface1_MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1
