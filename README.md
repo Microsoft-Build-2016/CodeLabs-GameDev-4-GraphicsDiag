@@ -6,7 +6,7 @@
 <a name="Overview" ></a>
 ## Overview ##
 
-There are many things that can go wrong when developing game, including memory issues, rendering issues, strange behaviors, performance issues, hardware issues and much more. In this session, you will get hands on experience with the **Visual Studio Graphics Diagnostics tools**  to help you in situations where your game needs analysis and debugging. You will learn how the tools work, and how to use them to solve different graphical issues.
+There are many things that can go wrong when developing games, including memory issues, rendering issues, strange behaviors, performance issues, hardware issues and much more. In this session, you will get hands on experience with the **Visual Studio Graphics Diagnostics tools**  to help you in situations where your game needs analysis and debugging. You will learn how the tools work, and how to use them to solve different graphical issues.
 
 <a name="Objectives" ></a>
 ### Objectives ###
@@ -42,8 +42,13 @@ Estimated time to complete this module: **60 minutes**
 <a name="Exercise1"></a>
 ### Exercise 1: Profiling ###
 
+The _Graphics Diagnostics_ tools in Visual Studio are designed to help you locate rendering problems by starting with the visual artifacts that indicate the problem and then tracing back to the source of the problem by focusing only on relevant shader code, pipeline stages, draw calls, resources, and device state in the app's own source code.
+
+In this exercise, you will use the diagnostic tools to profile the game to check the CPU usage and identify performance issues.
+
 <a name="Ex1Task1"></a>
 #### Task 1 - Playing with the game ####
+In this task, you will play with the game to learn how it works and get familiar with the UI. 
 
 1. Open the project in UNITY and play the game a few times by clicking on the **PLAY** button. You control the rocket by pressing **A** and **D** on the keyboard, and launch by pressing **SPACE** or click the **Launch** button on the user interface. Above the rocket, there is a path indicator:
 
@@ -64,7 +69,6 @@ Estimated time to complete this module: **60 minutes**
     ![Game finish](Images/image005.png?raw=true "Game finish")
     
     _Game finish_
-
 
 <a name="Ex1Task2"></a>
 #### Task 2 - Exporting the game as a UWP ####
@@ -118,6 +122,7 @@ Now that we know how the game works, we want to run it through a performance ana
 
 <a name="Ex1Task4"></a>
 #### Task 4 - Running the Profiler ####
+Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to better understand the high-level hardware utilization of your Direct3D app. You can use it to determine whether the performance of your app is CPU-bound or GPU-bound and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10; it doesn't support other graphics APIs such as Direct2D or OpenGL.
 
 1. Click **Debug->Start Diagnostics Tools Without Debugging...**
 
@@ -256,6 +261,9 @@ The issue is now fixed, and we now got a better framerate! However, we have more
 
 <a name="Exercise2"></a>
 ### Exercise 2: Debugging Shaders and Graphics ###
+Making a mistake in app code is almost inevitable, whether the code is C++ or High Level Shader Language (HLSL). However, debugging HLSL code has traditionally been more difficult because it hasn’t had the rich debugging support that C++ and other languages enjoy. _Graphics Diagnostics_ brings traditional code debugging tools to HLSL so that you can step through code, set breakpoints, and examine the contents of variables, parameters, and constant buffers.
+
+In this exercise, you will debug the game to troubleshot an issue with the game graphics by making use of the Graphics Diagnostics tools in Visual Studio.
 
 <a name="Ex2Task1"></a>
 #### Task 1 - Identifying the issue ####
@@ -489,6 +497,10 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
 
 <a name="Exercise3"></a>
 ### Exercise 3: Debugging Events and Pipeline Stages ###
+
+On of the Graphics Diagnostics tools in Visual Studio is the Graphics Pipeline Stages window, where you can investigate how the currently selected event is processed by each stage of the graphics pipeline so that you can identify where the rendering problem first appears. Examining the pipeline stages is particularly helpful when an object doesn't appear because of an incorrect transformation, or when one of the stages produces output that doesn't match what the next stage expects.
+
+In this exercise, you will use the Pipeline Stages window to understand the events that draws the tower and detect potential performance issues.
 
 <a name="Ex3Task1"></a>
 #### Task 1 - Exporting the UWP ####
