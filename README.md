@@ -14,7 +14,7 @@ In this module, you will:
 
 - Use the CPU Profiling tools to identify performance issues
 - Use the Frame Capture tool and shader debugger to identify errors in the shaders
-- Use the Event view to see drawcalls and possibilities for performane optimization
+- Use the Event view to see drawcalls and possibilities for performance optimization
 
 <a name="Prerequisites"></a>
 ### Prerequisites ###
@@ -163,7 +163,7 @@ Now that we know how the game works, we want to run it through a performance ana
     
     _Functions CPU usage_
 
-1. Going into it, we can see that it's external code that's spending most of it, and that external code might not have any debugging information. Also, notice the **WindRandomnesGenerator** function call here. It's quite low on the CPU Usage, but I know it's calling external code so this might be the source of error.
+1. Going into it, we can see that it's external code that's spending most of it, and that external code might not have any debugging information. Also, notice the **WindRandomnesGenerator** function call here. It's quite low on the CPU Usage, but we know it's calling external code so this might be the source of error.
 
 1. Let's do some more digging by clicking **Create detailed report**:
 
@@ -171,7 +171,7 @@ Now that we know how the game works, we want to run it through a performance ana
     
     _Create detailed report_
 
-1. This will give some some more details around what we are doing, and you will see a similar screen to this:
+1. This will give some more details around what we are doing, and you will see a similar screen to this:
 
     ![Detailed report](Images/image033.png?raw=true "Detailed report")
     
@@ -209,7 +209,7 @@ Now that we know how the game works, we want to run it through a performance ana
     
     _Start Diagnostics Tools Without Debugging_
 
-1. Go the the CPU Usage tab and notice the changed values. The Update function is now at normal levels. 
+1. Go the CPU Usage tab and notice the changed values. The Update function is now at normal levels. 
 
     ![Improved CPU usage](Images/image041.png?raw=true "Improved CPU usage")
     
@@ -438,7 +438,7 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
     
     _Step through tools_
 
-    Looking at the calculations of the rim value, we have forgotten to invert it by subtracting it from one. Lets try this, so go ahead and stop the debugger and open the shader for editing.
+    Looking at the calculations of the rim value, we have forgotten to invert it by subtracting it from one. Let's try this, so go ahead and stop the debugger and open the shader for editing.
  
 
 <a name="Ex2Task9"></a>
@@ -461,7 +461,7 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
 <a name="Ex2Task10"></a>
 #### Task 10 - Fix issue in Unity and re-export ####
 
-1. Close the debugging session and go back to Unity, and find the **Velvet** shader we are using by navingating to the **Shaders/Velvet** folder:
+1. Close the debugging session and go back to Unity, and find the **Velvet** shader we are using by navigating to the **Shaders/Velvet** folder:
 
     ![Velvet shader](Images/image079.png?raw=true "Velvet shader")
     
@@ -588,7 +588,7 @@ By this stage, we are already familiar with how the game works and how to export
 <a name="Ex3Task5"></a>
 #### Task 5 - Finding the draw calls that belong to our tower ####
 
-1. By clicking through the event view, you will first see that a lot of them belong to the terraing, and then another bunch that belong to the tower.
+1. By clicking through the event view, you will first see that a lot of them belong to the terrain, and then another bunch that belong to the tower.
 
 1. Another way of finding where about the tower draw events are, is by using the _pixel history_ (as we used in Exercise 2)
 
@@ -650,4 +650,4 @@ By this stage, we are already familiar with how the game works and how to export
 <a name="summary" />
 ## Summary ##
 
-Thank you for going through this module. We hope that by going through these steps, you have learned how you can use the Diagnostics Tools in your own graphical projects. There are many other problems in this solution, so you you want to go even further, feel free to spend some more time with it.
+Thank you for going through this module. We hope that by going through these steps, you have learned how you can use the Diagnostics Tools in your own graphical projects. There are many other problems in this solution, so if you want to go even further, feel free to spend some more time with it.
