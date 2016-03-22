@@ -34,8 +34,8 @@ The following is required to complete this module:
 This module includes the following exercises:
 
 1. [Profiling](#Exercise1)
-1. [Shader and Graphic debugging](#Exercise2)
-1. [Events and Pipeline Stages](#Exercise3)
+1. [Debugging Shaders and Graphics](#Exercise2)
+1. [Debugging Events and Pipeline Stages](#Exercise3)
 
 Estimated time to complete this module: **60 minutes**
 
@@ -43,7 +43,7 @@ Estimated time to complete this module: **60 minutes**
 ### Exercise 1: Profiling ###
 
 <a name="Ex1Task1"></a>
-#### Task 1 - Welcome! ####
+#### Task 1 - Playing with the game ####
 
 1. Open the project in UNITY and play the game a few times by clicking on the **PLAY** button. You control the rocket by pressing **A** and **D** on the keyboard, and launch by pressing **SPACE** or click the **Launch** button on the user interface. Above the rocket, there is a path indicator:
 
@@ -255,17 +255,17 @@ The issue is now fixed, and we now got a better framerate! However, we have more
 
 
 <a name="Exercise2"></a>
-### Exercise 2: Shader and Graphic debugging ###
+### Exercise 2: Debugging Shaders and Graphics ###
 
 <a name="Ex2Task1"></a>
-#### Task 1 - Identify issue ####
+#### Task 1 - Identifying the issue ####
 
 1. Open the **Begin** project in Unity and play another round of the game. Focus on the moon, and notice that it looks a bit weird.
 
 	The VS Graphics Diagnostics tools comes with a set of tools that enables you to see all the drawcalls as well as the history of selected pixels, as well as shader debugging and shader editing.
 
 <a name="Ex2Task2"></a>
-#### Task 2 - Export as a UWP ####
+#### Task 2 - Exporting as a UWP ####
 
 1. Let's go ahead and build the solution. In Unity, click **File->Build Settings**.
 
@@ -315,7 +315,7 @@ The issue is now fixed, and we now got a better framerate! However, we have more
  
 
 <a name="Ex2Task4"></a>
-#### Task 4 - Run in Graphics Debug mode ####
+#### Task 4 - Running in Graphics Debug mode ####
 
 1. Let's run this with the _Graphics Diagnostics_ by clicking **Debug->Graphics->Start Diagnostics**.
 
@@ -410,7 +410,7 @@ The issue is now fixed, and we now got a better framerate! However, we have more
 
 
 <a name="Ex2Task8"></a>
-#### Task 8 - Debug shader ####
+#### Task 8 - Debugging shader ####
 
 Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel History_, you can see what shader is being used, as well as a green play button. By clicking on the shader name, you can see the code of the shader. This shader will create a rim around the moon, but by the looks of it, the rim color seems to be in the center, inverse.
 
@@ -442,7 +442,7 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
  
 
 <a name="Ex2Task9"></a>
-#### Task 9 - Edit the shader ####
+#### Task 9 - Editing the shader ####
 
 1. Click on the shader tab and edit the code so it looks like this:
 
@@ -459,7 +459,7 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
     _Fixed moon_
 
 <a name="Ex2Task10"></a>
-#### Task 10 - Fix issue in Unity and re-export ####
+#### Task 10 - Fixing issue in Unity and re-exporting ####
 
 1. Close the debugging session and go back to Unity, and find the **Velvet** shader we are using by navigating to the **Shaders/Velvet** folder:
 
@@ -488,10 +488,10 @@ Now, below each of the stages in the _Pipline Stage_ view, or in the _Pixel Hist
 1. Play the game from the Unity Editor, and see that it now works well, and the moon is fixed!
 
 <a name="Exercise3"></a>
-### Exercise 3: Events and Pipeline Stages ###
+### Exercise 3: Debugging Events and Pipeline Stages ###
 
 <a name="Ex3Task1"></a>
-#### Task 1 - Export the UWP ####
+#### Task 1 - Exporting the UWP ####
 
 By this stage, we are already familiar with how the game works and how to export the game from Unity and attach the _Graphics Diagnostic_ Tools. The aim here is to learn how the _Event List_ works, and how you can use it.
 
@@ -529,7 +529,7 @@ By this stage, we are already familiar with how the game works and how to export
     _Build and run_
 
 <a name="Ex3Task3"></a>
-#### Task 3 - Run in Graphics Debug mode ####
+#### Task 3 - Running in Graphics Debug mode ####
 
 1. Let's run this with the _Graphics Diagnostics_ by clicking **Debug->Graphics->Start Diagnostics**.
 
@@ -641,7 +641,7 @@ By this stage, we are already familiar with how the game works and how to export
 1. In the **End** folder, the new model has replaced the existing one.
 
 <a name="Ex3Task8"></a>
-#### Task 8 - Test ####
+#### Task 8 - Testing ####
 
 1. You can directly open the exported UWP of the End project, run it and capture a frame.
 
