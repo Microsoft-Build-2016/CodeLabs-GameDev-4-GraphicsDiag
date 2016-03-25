@@ -23,9 +23,10 @@ The following is required to complete this module:
 
 - [Visual Studio Community 2015][1] or greater
 - [VS Graphics Diagnostics Tools][2]
-
+- [Unity v5.3.3 with Windows Store Modules installed][3]
 [1]: https://www.visualstudio.com/products/visual-studio-community-vs
 [2]: https://msdn.microsoft.com/en-us/library/mt125501.aspx
+[3]: http://www.unity3d.com/
 
 ---
 
@@ -50,7 +51,7 @@ In this exercise, you will use the diagnostic tools to profile the game to check
 #### Task 1 - Playing with the game ####
 In this task, you will play with the game to learn how it works and get familiar with the UI. 
 
-1. Open the project in UNITY and play the game a few times by clicking on the **PLAY** button. You control the rocket by pressing **A** and **D** on the keyboard, and launch by pressing **SPACE** or click the **Launch** button on the user interface. Above the rocket, there is a path indicator:
+1. Open the project file** Source\Ex1\Begin\Apollo\Assets\Main.unity** in UNITY and play the game a few times by clicking on the **PLAY** button. You control the rocket by pressing **A** and **D** on the keyboard, and launch by pressing **SPACE** or click the **Launch** button on the user interface. Above the rocket, there is a path indicator:
 
     ![Path indicator](Images/image001.png?raw=true "Path indicator")
     
@@ -92,7 +93,7 @@ Now that we know how the game works, we want to run it through a performance ana
     
     _Windows Store build settings_
 
-1. Next, click **Build** and create a subfolder in the rood project named **EXPORT**, and another one inside the new EXPORT folder called **UWP** and click **Select Folder** to start the export.
+1. Next, click **Build** and create a subfolder in the root project named **EXPORT**, and another one inside the new EXPORT folder called **UWP** and click **Select Folder** to start the export (Ex1\Begin\Apollo\EXPORT\UWP).
 
     ![Selecting build folder](Images/image011.png?raw=true "Selecting build folder")
     
@@ -162,7 +163,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 
 1. Check the CPU usage and notice that the **RocketControllers::Update** function is using a lot of CPU usage, in this case _48.03%_.
 
-1. Open the **RocketController::$Invoke16** tree to dive a bit deeper.
+1. Open the **RocketController::$Invoke16** tree to dive a bit deeper. If you cant see this right away or if it looks a bit different, you can do a search on it.
 
     ![Functions CPU usage](Images/image029.png?raw=true "Functions CPU usage")
     
@@ -202,7 +203,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
     
     _Commenting out WindRandomnessGenerator call_
 
-1. Now, save the change and do the export again from Unity. Once done, do a rebuild all:
+1. Now, save the change and do a rebuild all back in the Visual Studio solution. This will work since we exported the solution with the C# projects:
 
     ![Rebuild Solution](Images/image039.png?raw=true "Rebuild Solution")
     
@@ -254,7 +255,7 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
 	}
 	````
 
-1. Export the game again, and run it under the CPU profile like in Task 6.
+1. Build the game again, and run it under the CPU profile like in Task 6.
 
 The issue is now fixed, and we now got a better framerate! However, we have more graphics issues to fix so let's move on to the next exercise!
 
